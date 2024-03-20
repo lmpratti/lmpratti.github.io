@@ -92,14 +92,14 @@
                     </div>
                 </div>
             </header>
-            <!-- About section-->
-            <section class="py-5" id="about">
+            <!-- Contact section-->
+            <section class="py-5" id="contact">
                 <div class="row gx-5 justify-content-center">
                     <div class="col-lg-8 col-xl-6">
                         <div class="text-center">
                             <h2 class="fw-bolder">Real Estate, Humanised</h2>
                                 <div class="fs-4 mb-4 fst-italic">Add life to your listings</div>
-                                <p class="lead fw-normal text-muted mb-5">Schedule a call with us today to know how <i><b><span style="color:rgb(76,57,87)">Unreally</span></b></i> can increase your revenue by adding life to your listings.</p>
+                                <p class="lead fw-normal text-muted mb-3">Every home deserves to be seen through the eyes of those who dream of living there.<br>Schedule a call with us today to know how <i><b><span style="color:rgb(76,57,87)">Unreally</span></b></i> can add life to your listings.</p>
                                 <!-- Calendly link widget begin -->
                                 <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
                                 <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
@@ -109,23 +109,23 @@
                     </div>
                 </div>
             </section>
-            <!-- Contact section-->
-            <!--<section class="py-5 bg-light" id="contact">
+            <!-- Calculator section-->
+            <section class="py-5 bg-light" id="calculator">
                 <div class="row gx-5 justify-content-center">
                     <div class="col-lg-8 col-xl-6">
                         <div class="text-center">
-                            <h2 class="fw-bolder">Let's Humanise Your Listings</h2>
-                                <p class="lead fw-normal text-muted mb-5">Ready to transform your real estate marketing approach?<br>Contact us today to know how <i><b><span style="color:rgb(76,57,87)">Unreally</span></b></i> can increase your revenue by adding life to your listings.</p>
-                                <!- -<a href="mailto:hello@unreally.com.au" class="email-button">Email Us!</a>- ->
-                                <!- - Calendly link widget begin - ->
-                                <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-                                <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-                                <a class="email-button" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/unreally/15min'});return false;">Schedule a call</a>
-                                <!- - Calendly link widget end - ->
+                            <h2 class="fw-bolder">Increase your revenue</h2>
+                                <p class="lead fw-normal text-muted mb-3">Add life to your listings and watch revenue grow. Use our calculator to estimate your potential earnings!</p>
+                                <label for="numberInput" class="lead fw-normal text-muted mb-3">How many properties do you sell per month?</label>
+                                <input type="number" id="numberInput"><br>
+                                <a onclick="calculate()" class="email-button">Calculate your increase in revenue</a>
+                                <p id="result" class="lead fw-normal text-muted mb-3 mt-3"></p>
+                                <!-- Include the JavaScript file -->
+                                <script src="calculator.js"></script>
                         </div>
                     </div>
                 </div>
-            </section>-->
+            </section>
         </main>
         <!-- Footer-->
         <footer class="bg-dark py-4 mt-auto">
@@ -139,5 +139,6 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <script src="js/calculator.js"></script>
     </body>
 </html>
