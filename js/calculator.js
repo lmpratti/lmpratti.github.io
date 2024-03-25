@@ -3,7 +3,7 @@ function calculate() {
     var number = document.getElementById("numberInput").value;
 
     // Multiply the input value by 12
-    var result = number * 200 * 1;
+    var result = number * (200 + (0.02 * 0.1 * 700000))* 1;
 
     // Display the result
     document.getElementById("result").innerHTML = "You can earn <span style='color: rgb(76,57,87); font-weight: bold;'>" + result + " AUD</span> more per month.";
